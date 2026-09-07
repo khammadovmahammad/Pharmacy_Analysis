@@ -1,0 +1,45 @@
+# Company / local data
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.duckdb
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment / secrets
+.env
+.env.*
+*.key
+*.pem
+credentials*
+secrets*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Generated outputs
+outputs/
+reports/
+data/
+raw_data/
+processed_data/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Experiment outputs
+experiment_output/

@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& \".venv\\\\Scripts\\\\python.exe\" \"C:\\\\Users\\\\MEHEMM~1.XAM\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-mehemmed-xammedov-Documents-PythonProjects-pharmacy-analytics\\\\dd67f005-a4b5-4956-810e-7f66e2ff884f\\\\scratchpad\\\\inspect_rank2.py\")"
+    ]
+  }
+}
