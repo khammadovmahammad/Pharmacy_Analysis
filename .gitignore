@@ -9,6 +9,11 @@
 *.sqlite
 *.sqlite3
 
+# Exception: the executive app's extract is deliberately committed so the
+# deployed app can read it. It holds seven behavioural columns and NO customer
+# identifier - see scripts/06_build_executive_extract.py.
+!dashboard/executive_data/*.parquet
+
 # Environment / secrets
 .env
 .env.*
@@ -16,6 +21,7 @@
 *.pem
 credentials*
 secrets*
+!.streamlit/secrets.toml.example
 
 # Python
 __pycache__/

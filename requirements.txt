@@ -1,0 +1,13 @@
+# Dependencies for the standalone executive app (executive_app.py).
+# Tested on Python 3.14.7 with streamlit 1.61.1 / pandas 3.0.5 / numpy 2.x.
+# Pins are loose so the app also resolves on Python 3.11-3.13, which is what
+# most managed hosts run.
+streamlit>=1.44,<2
+pandas>=2.2
+numpy>=1.26
+plotly>=5.20
+pyarrow>=15.0
+
+# The full analyst dashboard (dashboard/app.py) additionally needs:
+#   duckdb>=1.0
+# The executive app does not - it reads Parquet and holds no database.
